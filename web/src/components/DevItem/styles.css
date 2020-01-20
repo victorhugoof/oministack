@@ -1,0 +1,54 @@
+li.dev-item {
+    background: #ffffff;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+li.dev-item header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li.dev-item header img{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+li.dev-item header .user-info {
+    margin-left: 10px
+}
+
+li.dev-item header .user-info strong{
+    display: block;
+    font-size: 16px;
+    color: #333333;
+}
+
+li.dev-item header .user-info span{
+    font-size: 13px;
+    color: #999999;
+    margin-top: 2px;
+}
+
+li.dev-item p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 20px;
+    margin: 10px 0;
+    text-justify: distribute;
+}
+
+li.dev-item a {
+    font-size: 14px;
+    color: #8e4dff;
+    text-decoration: none;
+    transition: background 0.5s;
+    margin: 10px 0;
+}
+
+li.dev-item a:hover {
+    color: #8e2ea6;
+}
